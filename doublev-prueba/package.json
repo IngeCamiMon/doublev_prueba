@@ -1,0 +1,17 @@
+{
+  "name": "doublev-prueba",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:api": "npx playwright test api-tests",
+    "test:ui": "npx playwright test ui-tests/tests",
+    "test:all": "npm run test:api && npm run test:ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}
